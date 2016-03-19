@@ -1,5 +1,4 @@
 body {
-
   background-color: #EFEFEF;
 }
 #whole_page {
@@ -35,11 +34,11 @@ h1 {
 .tel {
   margin-bottom: 2px;
 }
-p, 
-ul {
-  font-size: 14px;
-  }
 p {
   text-indent: 15px;
 }
+ul {
+  font-size: 14px;
+  }
+
 
