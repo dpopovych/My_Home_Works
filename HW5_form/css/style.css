@@ -1,0 +1,230 @@
+@font-face {
+    font-family:'helveticaneuecyrlight';
+    src: url('../fonts/helveticaneuecyr-light-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-light-webfont.ttf'),
+         url('../fonts/helveticaneuecyr-light-webfont.woff'),
+         url('../fonts/helveticaneuecyr-light-webfont.woff2'),
+         url('../fonts/helveticaneuecyr-light-webfont.svg#');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  font-family: helveticaneuecyrlight;
+}
+
+header {
+  background-image: url(../img/up_menu_bg.png);
+}
+
+header:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+#entry:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+#menu:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+#entry {
+  float: right;
+  margin-right: 30px;
+  background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(32,124,202,1) 0%,rgba(81,177,220,1) 0%,rgba(46,122,196,1) 100%);
+}
+
+#entry ul {
+  padding: 0 20px;
+}
+
+#menu a {
+  display: block;
+  padding: 0 10px;
+  color:#60b5ed;
+}
+
+#offer a {
+  display: block;
+  padding: 0 10px;
+  color:white;
+}
+
+#menu li a:hover{
+  background-color: #4eabda;
+  color: #fff;
+  font-weight: bold;
+}
+
+#menu {
+  float: right;
+}
+
+#menu li{
+  float:left;
+}
+
+#offer {
+  float: right;
+  border-left: 1px solid #60b5ed ;
+  background-image: url(../img/white_flag.png);
+  background-repeat: no-repeat;
+  background-position: 15% 50%;
+  text-align: right;
+}
+
+#offer li {
+  padding-left: 40px;
+  padding-right: 10px;
+}
+
+#entry li {
+  float: right;
+  color: #fff;
+  padding: 0 2px;
+}
+
+li {
+  text-align: center;
+  font-size: 16px;
+  display:block;
+  line-height: 35px;
+}
+
+#entry a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+main {
+  width: 600px;
+  margin: 350px auto;
+}
+
+#cadastre {
+  background-color: rgba(14, 14, 14, 0.75);
+  padding: 15px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+}
+
+#reg_form {
+  background-color: rgba(14, 14, 14, 0.75);
+  margin: 3px auto 0 auto;
+  text-align: center;
+  color: #b5b5b3;
+}
+
+#log_via_fb a#fb_letter {
+  font-weight: bold;
+  font-size: 22px;
+  margin-right: 1px;
+  padding: 5px 14px;
+  border-radius: 4px 0px 0px 4px;
+}
+
+#log_via_fb {
+  padding-top: 36px;
+  margin:0 auto;
+  width: 275px;
+}
+
+#log_via_fb a {
+  font-family: Tahoma;
+  display: block;
+  float: left;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  background: -moz-linear-gradient(270deg, #3d5794 0%, #2b4276 100%); /* ff3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3d5794), color-stop(100%, #2b4276)); /* safari4+,chrome */
+  background: -webkit-linear-gradient(270deg, #3d5794 0%, #2b4276 100%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(270deg, #3d5794 0%, #2b4276 100%); /* opera 11.10+ */
+  background: -ms-linear-gradient(270deg, #3d5794 0%, #2b4276 100%); /* ie10+ */
+  background: linear-gradient(180deg, #3d5794 0%, #2b4276 100%);
+  border-top: 1px solid #758ab7;
+}
+
+#log_via_fb a#log_in {
+  padding: 8px 51px 10px 33px;
+  border-left: 1px solid #758ab7;
+  border-radius: 0px 4px 4px 0px;
+  position: relative;
+}
+
+#log_via_fb a#log_in:after {
+  content: url("../img/arrow.png");
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  right: 20px;
+}
+
+#line {
+  background-image: url(../img/line.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin: 70px auto 18px auto;
+}
+
+form {
+  width: 270px;
+  margin: 0 auto;
+}
+
+input.form {
+  width: 270px;
+  height: 36px;
+  background-color: #000;
+  border: 1px solid #000;
+  border-bottom: 1px solid #494846;
+  margin: 10px auto;
+}
+
+input::-webkit-input-placeholder {
+    text-indent: 10px;
+}
+
+input.form:focus {
+  background-color: #1b5288;
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(104,155,204,1);
+  -moz-box-shadow: 0px 0px 10px 3px rgba(104,155,204,1);
+  box-shadow: 0px 0px 10px 3px rgba(104,155,204,1);
+}
+
+.updates {
+  margin: 20px auto;
+  font-size: 14px;
+}
+
+#account {
+  font-family: Tahoma;
+  font-size: 14px;
+  display: block;
+  padding: 9px 0px 11px 0px;
+  margin: 0 210px;
+  color: white;
+  border-radius: 3px;
+  background: -moz-linear-gradient(top, #67c6e6 0%,#4ca9d9 0%,#4ca9d9 0%,#307ec6 0%,#2e7ac4 100%,#2e7ac4 100%,#2e7ac4 100%,#2e7ac4 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #67c6e6 0%,#4ca9d9 0%,#4ca9d9 0%,#307ec6 0%,#2e7ac4 100%,#2e7ac4 100%,#2e7ac4 100%,#2e7ac4 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #67c6e6 0%,#4ca9d9 0%,#4ca9d9 0%,#307ec6 0%,#2e7ac4 100%,#2e7ac4 100%,#2e7ac4 100%,#2e7ac4 100%);
+}
+
+#agreement {
+  font-size: 11px;
+  padding: 20px 0;
+}
