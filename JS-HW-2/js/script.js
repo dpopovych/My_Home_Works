@@ -9,8 +9,9 @@ var user = prompt('Introduce yourself, stranger!!!')
 var broOrNotBro
 
 for (i=0; i < names.length; i++) {
-  if (user == names[i]);
+  if (user == names[i]) {
   broOrNotBro = true;
+  }
 }
 
 if (broOrNotBro = true) {
