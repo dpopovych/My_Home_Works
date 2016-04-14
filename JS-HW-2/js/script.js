@@ -14,7 +14,7 @@ for (i=0; i < names.length; i++) {
   }
 }
 
-if (broOrNotBro = true) {
+if (broOrNotBro) {
   alert('Come in, ' + user + '! You are my Bro!')
 }
 else {
