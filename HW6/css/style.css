@@ -37,8 +37,8 @@ header li {
 .reg_panel {
     height: 20px;
     font: 11px 'Lucida Sans Unicode', Arial sans-serif;
-    padding: 3px 0;
-    margin: 10px 5px 0 0;
+    padding: 3px 3px 3px 0;
+    margin: 10px 2px 0 0;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e6383+24,154c6f+49,0e395e+82 */
     background: #1e6383; /* Old browsers */
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -60,7 +60,6 @@ header li {
 }
 
 .reg_panel input {
-    color: #fff;
     font: 11px 'Lucida Sans Unicode', Arial sans-serif;
     width: 112px;
     height: 12px;
@@ -68,13 +67,13 @@ header li {
 }
 
 .reg_panel img {
-    padding: 0 0 4px 7px;
+    padding: 0 2px 4px 7px;
 }
 
 .enter {
     background-color: inherit;
     border: 0;
-    margin: 2px 0 0 3px;
+    margin: 0 0 0 3px;
     padding: 0;
     color: #fff;
     font: 11px 'Lucida Sans Unicode', Arial sans-serif;
@@ -90,12 +89,12 @@ header li {
 .registration {
     border-left: 2px solid white;
     height: 10px;
-    margin: 5px 19px 0 5px;
+    margin: 4px 19px 0 5px;
     padding: 0 0 0 2px;
 }
 
 .forget {
-    margin: 1px 3px 1px 0;
+    margin: 0 0 1px 0;
 }
 
 .forget a {
@@ -103,7 +102,7 @@ header li {
     color: #bfbfbf;
     font: 12px 'Lucida Sans Unicode', Arial, sans-serif;
     text-decoration: underline;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .navigation {
@@ -136,6 +135,7 @@ header li {
 .logo {
     position: absolute;
     top: 51px;
+    left: 1px;
 }
 
 .menu {
