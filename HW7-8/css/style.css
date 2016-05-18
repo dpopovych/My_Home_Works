@@ -699,16 +699,20 @@ footer {
   .blog_pingbuller {
     position: relative;
     float: left;
-    width: 49%;
+    width: 45%;
     height: 200px;
     padding: 0;
-    margin: 0;
+    margin: 0 0 0 22px;
+  }
+
+  .blog_face {
+    left: -19px;
   }
 
   .slider_blog {
     position: absolute;
     top: 205px;
-    left: 125px;
+    left: -20px;
   }
 
   .blog_updates {
