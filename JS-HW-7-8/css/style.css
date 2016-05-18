@@ -1,0 +1,119 @@
+body {
+  margin: 90px 50px;
+  padding: 0 auto;
+  background-image: url('../img/euro_2016.jpg');
+  background-size: cover;
+  font-family: Geneva, Tahoma, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.tabs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tabs li {
+  display: inline-block;
+}
+
+.tabs a {
+  background: LightSteelBlue;
+  border-radius: 3px 3px 0 0;
+  color: white;
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.tabs a.current {
+  background: GhostWhite;
+  color: LightSteelBlue;
+}
+
+.tabs a:hover {
+  background: #ebebeb;
+}
+
+.tab {
+  background: white;
+  border: 5px solid GhostWhite;
+  padding: 1px;
+}
+
+#tab-1,
+#tab-2,
+#tab-3 {
+  width: 400px;
+  height: 200px;
+  padding: 5px;
+  border-radius: 0 3px 3px 3px;
+}
+
+#tab-1 {
+  background-color: #1E90FF;
+}
+
+#tab-2 {
+  background-image: url('../img/our_flag.jpg');
+  background-size: cover;
+}
+
+#tab-3 {
+  background-image: url('../img/ok.jpg');
+  background-size: cover;
+}
+
+#tab-3 a {
+  color: #000;
+}
+
+.hint {
+  color: #bcd1cc;
+  font: italic 12px Arial, sans-serif;
+  text-align: center;
+  display: none;
+}
+
+.hints {
+  margin: -10px 0 0 0;
+}
+
+.hints ul {
+  list-style: none;
+  position: relative;
+  padding: 0;
+}
+
+.hints ul li {
+  margin: 5px 0;
+}
+
+.hint {
+  position: absolute;
+  left: 230px;
+  top: -6px;
+}
+
+input {
+  width: 115px;
+  font-size: 12px;
+}
+
+.hint_second {
+  top: 20px;
+  left: 220px;
+}
+
+.hint_third {
+  top: 48px;
+  left: 220px;
+}
+
+
+.tv {
+  margin: 95px 0 0 0;
+}
