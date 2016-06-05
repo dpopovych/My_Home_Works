@@ -1,0 +1,49 @@
+body {
+  background-color: #EFEFEF;
+}
+
+#whole_page {
+  width: 450px;
+  height: 600px;
+  margin: 8px auto 40px auto;
+  background-color: white;
+}
+
+#about_me {
+  padding: 5px 33px 10px 33px;
+}
+
+h1 {
+  text-align: center;
+  height: 25px;
+  font-size: 20px;
+  padding-top: 22px;
+}
+
+.my_name {
+  border-bottom: 1px solid grey;
+}
+
+.photo {
+  text-align: center;
+}
+
+.why_frontend {
+  border-bottom: 1px solid grey;
+}
+
+.contacts {
+  border-bottom: 1px solid grey;
+}
+
+.cont {
+  margin-top: 2px;
+}
+
+.tel {
+  margin-bottom: 2px;
+}
+
+ul {
+  font-size: 14px;
+}
