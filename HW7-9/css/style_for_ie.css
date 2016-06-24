@@ -1,0 +1,324 @@
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.logo {
+  display: inline-block;
+  float: left;
+  margin: 0 65px 20px 30px;
+  padding-top: 25px;
+}
+
+.menu--mob {
+  display: none;
+}
+
+.menu {
+  padding: 50px 10px;
+}
+
+.menu--desktop {
+  display: block;
+  margin: 0 0 70px 20px;
+}
+
+.menu_desk_nav::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.menu_item {
+  display: block;
+  float: left;
+}
+
+.menu_item a {
+  margin: 20px;
+  color: #fff;
+  font-size: 24px;
+}
+
+.menu--desktop .menu_item a:hover {
+  border-bottom: 3px solid #c7a2d6;
+}
+
+.home {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  display: block;
+  padding: 0;
+  margin-bottom: 0;
+  background:transparent;
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
+  zoom: 1;
+}
+
+.home_heading {
+  display: inline-block;
+  margin: 100px 0 0 50px;
+  font-size: 50px;
+}
+
+.home_heading_2 {
+  font-size: 25px;
+  margin: 10px 0 0 50px;
+}
+
+.home_discr {
+  width: 320px;
+  height: 90px;
+  display: block;
+  margin-left: 50px;
+  color: #fff;
+  font: 16px "Open Sans", Arial, sans-serif;
+  overflow: hidden;
+}
+
+.iphones {
+  position: absolute;
+  display: block;
+  width: 45%;
+  top: -15px;
+  left: 615px;
+}
+
+.left_arrow {
+  position: absolute;
+  top:170px;
+  left: 0;
+}
+
+.right_arrow {
+  position: absolute;
+  top: 170px;
+  left:937px;
+}
+
+
+.slider {
+  margin-left: 405px;
+}
+
+.about {
+  padding: 0 0 20px 30px;
+}
+
+.about_company {
+  width: 33%;
+  height: 100px;
+  float: left;
+  margin: 50px 0;
+  padding: 0;
+}
+
+
+.about_logo--2 {
+    background-position: -27px 0;
+}
+
+.about_logo--3 {
+    width: 26px;
+    background-position: -54px 0;
+}
+
+.about_h {
+  display: block;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.about_p {
+  font: 16px "Open Sans", sans-serif;
+  margin: 0 0 0 29px;
+}
+
+.about_more {
+  display: block;
+  margin: 5px 0;
+  padding: 0 75px 0 0;
+}
+
+.blog {
+  height: 270px;
+  padding: 50px 0 0 0;
+}
+
+.blog::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.blog_pingbuller {
+  position: relative;
+  float: left;
+  width: 40%;
+  height: 200px;
+  padding: 0;
+  margin: 0 30px;
+}
+
+.blog_face {
+  left: -19px;
+}
+
+.blog_pingbuller_h {
+    width: 26%;
+    float: left;
+    margin-right: 0;
+    font-size: 22px;
+    text-indent: 10px;
+}
+
+.blog_pingbuller_p {
+  display: block;
+  margin: 5px 5px 5px 30px;
+  font-size: 22px;
+}
+
+.blog_pingbuller_discr {
+  height: auto;
+  padding: 0 15px 0 9px;
+  font: 14px 'Open Sans', sans-serif;
+}
+
+.slider_blog {
+  position: absolute;
+  top: 205px;
+  left: 60px;
+}
+
+.blog_updates {
+  float: right;
+  width: 49%;
+  height: 250px;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.blog_updates_discr {
+  width: 350px;
+}
+
+.blog_more {
+  width:49%;
+}
+
+.partners {
+    width: 100%;
+    height: 50px;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 30px 0;
+    text-align: center;
+    border: 1px solid #ececec;
+}
+
+.partners::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.partner {
+    width: 15%;
+    display: block;
+    float: left;
+    margin: 0 5px;
+    padding: 0;
+}
+.news {
+  height: 230px;
+  padding: 20px 0;
+}
+
+.news::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.news_pingbull,
+.news_comments,
+.news_cat_wrapper {
+  width: 30%;
+  display: block;
+  float: left;
+  height: auto;
+  margin: 30px 10px;
+}
+
+.news_pingbull_heading {
+font-size: 36px;
+color: #323232;
+}
+.news_pingbull_heading span {
+  color: #999999;
+}
+
+.news_pingbull_copyright {
+  font: bold italic 12px "Open sans";
+  color: #ccc;
+  margin: 5px 0;
+  text-shadow: 5px 1px 2px rgba(255, 255, 255, 1);
+}
+
+.news_pingbull_discr,
+.news_comments_discr {
+  font: 16px 'Open Sans', sans-serif;
+}
+
+.news_comments_heading {
+  font-size: 24px;
+}
+
+.news_categories {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+.news_categories_heading {
+    font-size: 24px;
+}
+
+.news_categories_discr {
+    height: 150px;
+    overflow-y: hidden;
+    margin: 5px 0;
+    font: 16px 'Open Sans', sans-serif;
+}
+
+.news_categories--480 {
+  display: none;
+}
+
+footer {
+  height: 100px;
+}
+
+.menu--footer {
+    display: block;
+    width: 700px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu--footer .menu_item {
+    margin: 40px 0;
+}
+
+.menu--footer .menu_item a {
+    font-size: 20px;
+}
+
+.credits {
+    float: right;
+    margin: 0 35px 0 0;
+    padding: 44px 0 0 0;
+}
