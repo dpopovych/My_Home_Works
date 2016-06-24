@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ajax request</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <img src="img/background.jpg" alt="" />
+        <form id="search" action="https://pixabay.com/api/" method="GET">
+          <input type="text" id="user_req" name="name" placeholder="What are you looking for?">
+        </form>
+      </div>
+      <div class="results"></div>
+    </div>
+  </body>
+</html>
