@@ -12,12 +12,21 @@
 
 body {
     font-family: 'league_gothicregular';
-    overflow-x: hidden;
+    background-image: url(../img/background.jpg);
+    /*background-size: cover;*/
 }
 
+
+.wrapper {
+  overflow-x: hidden;
+  width: 320px;
+  margin: 0 auto;
+}
+
+
 header {
-    background-image: url(../img/background.jpg);
-    background-size: cover;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
 }
 
 .logo {
@@ -39,7 +48,7 @@ header {
     display: block;
     text-align: center;
     width: auto;
-    margin: 10px 0 118px 0;
+    margin: 10px 17px 118px 0;
 }
 
 .menu_item_top a {
@@ -98,13 +107,13 @@ header {
 .left_arrow {
     position: absolute;
     top: 8px;
-    left: -35px;
+    left: -55px;
 }
 
 .right_arrow {
     position: absolute;
     top: 8px;
-    left: 220px;
+    left: 242px;
 }
 
 .slider {
@@ -188,7 +197,6 @@ header {
     background-color: #f9f9f9;
     padding: 20px 0 0 30px;
     position: relative;
-
 }
 
 .blog_pingbuller {
@@ -196,7 +204,7 @@ header {
     height: 270px;
     position: relative;
     background-color: #fff;
-    margin: 0 auto;
+    margin: 0;
     padding: 10px 0 10px 0;
     -webkit-box-shadow: 1px 1px 5px 0px rgba(239,239,239,1);
     -moz-box-shadow: 1px 1px 5px 0px rgba(239,239,239,1);
@@ -237,7 +245,8 @@ header {
 }
 
 .blog_updates {
-    margin: 10px 0 0 -40px;
+    width: 320px;
+    margin: 10px 0 0 -25px;
     padding: 0 0 60px 0;
     border-bottom: 1px solid #e6e6e6;
 }
@@ -291,6 +300,10 @@ header {
     float: right;
 }
 
+.partners {
+  background-color: #f9f9f9;
+}
+
 .partners::after {
     content: "";
     display: block;
@@ -298,7 +311,7 @@ header {
 }
 
 .partner {
-    width: 30%;
+    width: 34%;
     display: block;
     float: left;
     margin: 10px 25px;
@@ -327,7 +340,7 @@ footer {
 
 .credits {
     display: block;
-    margin: 0 0 0 85px;
+    margin: 0 0 0 90px;
     padding: 50px 0;
     text-shadow: 1px 2px 0px rgba(98, 97, 101, 1);
     font: 12px 'Open Sans', sans-serif;
@@ -338,6 +351,11 @@ footer {
 }
 
 @media screen and (min-width: 480px) {
+
+  .wrapper {
+    width: 480px;
+    margin: 0 auto;
+  }
 
   .logo {
       margin: 0 165px;
@@ -417,7 +435,7 @@ footer {
 
   .right_arrow {
       top: 110px;
-      left: 440px;
+      left: 458px;
   }
 
   .left_arrow {
@@ -489,6 +507,7 @@ footer {
   }
 
   .blog_updates {
+      width: 480px;
       padding: 10px 0 50px 50px;
       margin-bottom: 0;
   }
@@ -512,11 +531,10 @@ footer {
   }
 
   .partners {
-      margin: 20px 35px 20px 40px;
   }
 
   .partner {
-      width: 20%;
+      width: 22%;
       float: left;
   }
 
@@ -567,6 +585,10 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+
+  .wrapper {
+    width: 768px;
+  }
 
   .logo {
     display: block;
@@ -638,7 +660,7 @@ footer {
   }
 
   .right_arrow {
-  left: 728px;
+  left: 745px;
   top: 170px;
   }
 
@@ -758,7 +780,7 @@ footer {
     float: left;
     width: 30%;
     height: 200px;
-    margin: 40px 10px;
+    margin: 40px 12px;
     padding: 0;
   }
 
@@ -785,6 +807,10 @@ footer {
 }
 
 @media screen and (min-width: 960px) {
+
+  .wrapper {
+    width: 960px;
+  }
 
   .logo {
     float: left;
@@ -818,7 +844,11 @@ footer {
   }
 
   .right_arrow {
-    left: 920px;
+    left: 937px;
+  }
+
+  .slider {
+    margin-left: 405px;
   }
 
   .about_logo--2 {
