@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS-HW-19-20</title>
+  <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    //= template/header_slider.html
+    //= template/adv_services.html
+    //= template/news_footer.html
+  </div>
+  <script>
+  (function($) {
+      var allPanels = $('.accordion > dd').hide();
+      $('.accordion > dd:first-of-type').show();
+      $('.accordion > dt:first-of-type').addClass('accordion-active');
+      jQuery('.accordion > dt').on('click', function() {
+      $this = $(this);
+      $target = $this.next();
+      if(!$this.hasClass('accordion-active')){
+      $this.parent().children('dd').slideUp();
+
+      jQuery('.accordion > dt').removeClass('accordion-active');
+      $this.addClass('accordion-active');
+      $target.addClass('active').slideDown();
+
+      }
+
+      return false;
+      });
+
+  })(jQuery);
+  </script>
+</body>
+</html>

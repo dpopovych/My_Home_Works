@@ -1,0 +1,10 @@
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+@import "partials/normalize/import-now";
+@import "partials/header_slider.scss";
+@import "partials/adv_services.scss";
+@import "partials/news_footer.scss";

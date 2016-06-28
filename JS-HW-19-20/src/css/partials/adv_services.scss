@@ -1,0 +1,106 @@
+$color_1: currentColor;
+$color_2: #e9e9ea;
+$color_3: #248cec;
+$color_4: #fff;
+$color_5: #f4b60d;
+
+.advantages {
+	&::after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+}
+.advantage {
+	float: left;
+	width: 23%;
+	margin: 20px 0;
+	position: relative;
+	padding-left: 99px;
+	a {
+		display: block;
+		text-decoration: none;
+		color: $color_1;
+	}
+}
+.van {
+	margin: 0 0 6px 0;
+}
+.adv_descr {
+	height: 50px;
+	overflow-y: hidden;
+	text-align: justify;
+}
+.adv_number {
+	font-size: 85px;
+	font-weight: bold;
+	color: $color_2;
+	top: -18px;
+	left: -3px;
+	position: absolute;
+}
+.adv_arrow {
+	font-size: 20px;
+	color: $color_3;
+}
+.adv_more {
+	&:hover {
+		color: $color_3;
+		.adv_arrow { color: #989fb3;
+	}
+}
+}
+	.serv-cover {
+		background-color: #2a2d32;
+		width: 100%;
+		height: 400px;
+	}
+
+.serv-list {
+	&::after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+}
+.serv-heading {
+	color: $color_4;
+	display: block;
+	width: 115px;
+	margin: 0 60px;
+	padding: 30px 0 0 0;
+}
+.serv-item {
+	display: block;
+	float: left;
+	list-style: none;
+	color: $color_4;
+	text-align: center;
+	position: relative;
+	a {
+		display: block;
+		margin: 50px 20px;
+		text-decoration: none;
+		color: $color_1;
+	}
+	img {
+		width: 180px;
+		height: 180px;
+	}
+	&:hover {
+		.serv-overlay { display: block;
+		width: 180px;
+		height: 180px;
+		z-index: 1;
+		position: absolute;
+		left: 20px;
+		top: 50px;
+	}
+}
+}
+.serv-overlay {
+	display: none;
+}
+p {
+	color: $color_5;
+}

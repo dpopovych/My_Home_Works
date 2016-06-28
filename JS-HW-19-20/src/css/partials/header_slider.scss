@@ -1,0 +1,206 @@
+$color_1: #fff;
+$color_2: #f4b60d;
+
+.titles {
+	margin: 10px 0;
+	position: relative;
+	&::after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+}
+.logo {
+	width: 206px;
+}
+.social_nets {
+	width: 200px;
+	float: right;
+	top: 0;
+	left: 794px;
+	position: absolute;
+	margin-left: 10px;
+
+	.social_nets::after { content: "";
+	display: block;
+	clear: both;
+}
+a {
+	display: inline-block;
+	float: left;
+	margin: 5px;
+	padding: 0;
+}
+
+.facebook {
+	display: block;
+	width: 17px;
+	height: 24px;
+	background-image: url('../img/facebook.png');
+	background-position: 0 -34px;
+}
+.twitter {
+	display: block;
+	width: 23px;
+	height: 24px;
+	background-image: url('../img/twitter.png');
+	background-position: 0 24px;
+	margin: 0;
+	padding: 0;
+}
+.rss {
+	display: block;
+	width: 23px;
+	height: 24px;
+	background-image: url('../img/rss.png');
+	background-position: 0 24px;
+	margin: 0;
+	padding: 0;
+}
+.in {
+	display: block;
+	width: 24px;
+	height: 24px;
+	background-image: url('../img/linkedin.png');
+	background-position: 0 24px;
+	margin: 0;
+	padding: 0;
+}
+.skype {
+	display: block;
+	width: 23px;
+	height: 24px;
+	background-image: url('../img/skype.png');
+	background-position: 0 24px;
+	margin: 0;
+	padding: 0;
+}
+
+& span:hover {
+	background-position: 0 0;
+
+}
+}
+
+	.menu--bar {
+		background-color: #2a2d32;
+		height: 61px;
+		.menu-list .item-home { margin-left: -40px;
+		background-color: #248cec;
+	}
+	input {
+		background-color: #35383c;
+		display: block;
+		width: 250px;
+		height: 30px;
+		float: right;
+		margin: 12px 5px;
+		text-indent: 10px;
+		font-size: 12px;
+		border: 1px solid #181a1d;
+		background-image: url("../img/search_icon.png");
+		background-repeat: no-repeat;
+		background-position: 220px;
+		input[placeholder] { color: #626466;
+	}
+}
+}
+.menu-item {
+	float: left;
+	list-style: none;
+	height: 61px;
+	width: 100px;
+	border-right: 1px solid #181a1d;
+	background-color: #2a2d32;
+	a { display: block;
+	font: 15px Tahoma, Verdana, Arial, sans-serif;
+	text-decoration: none;
+	color: $color_1;
+	text-align: center;
+	margin: 20px auto;
+	&:hover {
+		color: $color_2;
+	}
+}
+}
+
+
+/*
+ * jQuery Blueberry Slider v0.4 BETA
+ * http://marktyrrell.com/labs/blueberry/
+ *
+ * Copyright (C) 2011, Mark Tyrrell <me@marktyrrell.com>
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+
+.blueberry {
+  margin: 0 auto;
+  .slides {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    li {
+      position: absolute;
+      top: 0;
+      left: 0;
+      overflow: hidden;
+      img {
+        display: block;
+        width: 960px;
+        height: 350px;
+        max-width: none;
+      }
+      &.active {
+        display: block;
+        position: relative;
+      }
+    }
+  }
+  .crop li img {
+    width: auto;
+  }
+  .pager {
+    height: 40px;
+    text-align: center;
+    li {
+      display: inline-block;
+      a {
+        display: block;
+        height: 10px;
+        width: 10px;
+				padding: 18px 8px;
+				-webkit-border-radius: 6px;
+				-moz-border-radius: 6px;
+				border-radius: 6px;
+        span {
+          display: block;
+          height: 10px;
+          width: 10px;
+          overflow: hidden;
+          background: #c0c0c0;
+          text-indent: -9999px;
+          -webkit-border-radius: 2px;
+          -moz-border-radius: 2px;
+          border-radius: 2px;
+        }
+      }
+      &.active a span {
+        background: #404040;
+      }
+    }
+  }
+}
